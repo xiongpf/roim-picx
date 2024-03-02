@@ -19,3 +19,4 @@ export const onRequest: PagesFunction<Env> = async (context : EventContext) => {
     return error(500, (err as Error).message);
   }
 };
+
